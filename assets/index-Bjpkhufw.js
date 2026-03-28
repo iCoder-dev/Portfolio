@@ -366,6 +366,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
           cursor: pointer;
           transition: all 0.3s;
           background: var(--bg);
+          display: block;
         }
         .project-card:hover {
           background: var(--surface);
